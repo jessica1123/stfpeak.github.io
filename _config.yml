@@ -1,10 +1,9 @@
 # Site settings
-title: Dafeng Blog
+title: Dafeng' Blog
 SEOTitle: 大风的博客 | Dafeng's Blog
 header-img: img/home-bg.jpg
 email: stfpeak@163.com
-description: "关于前端与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Front-End Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄,  Hux, 鬼栈, huxpro, @huxpro, 大风的博客, Hux Blog, 博客, 个人网站, 互联网, 前端, 设计, 产品"
+description: "大风的博客、 网络安全、 漏洞挖掘 | CTF PWN&RE  Fuzzing "
 url: "https://stfpeak.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -64,13 +63,13 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+#ga_domain: huangxuan.me
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
+sidebar-about-description: "看看代码，挖挖漏洞，<br>离开世界之前，一切都是过程"
 sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
