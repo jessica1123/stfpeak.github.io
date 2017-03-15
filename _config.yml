@@ -70,7 +70,7 @@ ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "看看代码，挖挖漏洞，<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/feng.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
