@@ -3,7 +3,7 @@ title: Dafeng's Blog
 SEOTitle: 大风的博客 | Dafeng's Blog
 header-img: img/home_back.jpg
 email: stfpeak@163.com
-description: "大风的博客、 网络安全、 漏洞挖掘 | CTF PWN&RE  Fuzzing "
+description: "大风的博客、 网络安全、 漏洞挖掘 | CTF PWN&RE  Fuzzing-AFL"
 url: "https://stfpeak.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -11,11 +11,11 @@ baseurl: ""                             # for example, '/blog' if your blog host
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-#twitter_username:  huxpro
-facebook_username:  huxpro
+weibo_username:     dafengC9
+zhihu_username:     Dafeng
+github_username:    stfpeak
+#twitter_username:  Dafeng
+#facebook_username:  Dafeng
 # linkedin_username:  firstname-lastname-idxxxx
 
 
@@ -50,7 +50,7 @@ kramdown:
 #disqus_username: _your_disqus_short_name_
 
 # Duoshuo settings
-duoshuo_username: huxblog
+duoshuo_username: Dafeng
 # Share component is depend on Comment so we can NOT use share only.
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
@@ -62,8 +62,8 @@ duoshuo_share: true                     # set to false if you want to use Commen
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-#ga_domain: huangxuan.me
+ga_track_id: 'UA-93915426-1'            # Format: UA-xxxxxx-xx
+#ga_domain: 
 
 
 
@@ -92,34 +92,34 @@ friends: [
         title: "YY",
         href: "http://xy14qg.oschina.io/"
     },{
-        title: "乱序",
-        href: "http://mida.re/"
+        title: "Bamboofox",
+        href: "https://bamboofox.github.io/"
     },{
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
+        title: "p4-team",
+        href: "https://github.com/p4-team/ctf"
     },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
+        title: "VulnHub",
+        href: "https://github.com/VulnHub/ctf-writeups"
     },{
-        title: "Luke 的自留地",
-        href: "http://hmqk1995.github.io"
+        title: "Pwning My Life",
+        href: "http://blog.angelboy.tw/"
     },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
+        title: "uaf.io",
+        href: "http://uaf.io/"
     },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
+        title: "DDAA's BLOG",
+        href: "http://ddaa.tw/"
     },{
-        title: "解旻的博客",
-        href: "http://xieminis.me/"
+        title: "pwnable.kr",
+        href: "http://pwnable.kr/"
     },{
-        title: "DHong Say",
-        href: "http://dhong.co"
+        title: "KITCTF",
+        href: "https://kitctf.de/"
     },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
+        title: "ctf_记事本",
+        href: "http://rk700.github.io/"
     },{
-        title: "前端神盾局",
-        href: "http://wepiaofei.github.io/blog/"
+        title: "Android Reverse",
+        href: "http://www.wjdiankong.cn/"
     }
 ]
