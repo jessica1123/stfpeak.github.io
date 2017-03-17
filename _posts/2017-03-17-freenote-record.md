@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Freenote writeup -- Understand heap and double free
-subtitle: The Next Generation Application Model For The Web - Progressive Web App
-date: {}
+subtitle: How to exploit the program using info leak and double free
+date: {2017-03-17 22:53:00}
 author: Dafeng
 header-img: img/post-bg-nextgen-web-pwa.jpg
 header-mask: 0.3
