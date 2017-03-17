@@ -2,7 +2,8 @@
 layout: post
 title: Freenote writeup -- Understand heap and double free
 subtitle: How to exploit the program using info leak and double free
-date: {2017-03-17 22:53:00}
+date:
+  'Sat Mar 17 2017 22:55:00 GMT+0800 (中国标准时间)': null
 author: Dafeng
 header-img: img/post-bg-nextgen-web-pwa.jpg
 header-mask: 0.3
