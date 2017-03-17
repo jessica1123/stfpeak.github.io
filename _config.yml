@@ -1,7 +1,7 @@
 # Site settings
 title: Dafeng's Blog
 SEOTitle: 大风的博客 | Dafeng's Blog
-header-img: img/home-bg.jpg
+header-img: img/home_back.jpg
 email: stfpeak@163.com
 description: "大风的博客、 网络安全、 漏洞挖掘 | CTF PWN&RE  Fuzzing "
 url: "https://stfpeak.github.io"              # your host, for absolute URL
