@@ -5,6 +5,8 @@ subtitle:   "利用Xposed hook技术来控制改变app 程序流 "
 date:       2017-04-09 00:10:00 -0800
 author:     "Dafeng"
 header-img: "img/Xposed_app.jpg"
+header-mask: 0.3
+catalog: true
 tags:
     - Android
     - Xposed

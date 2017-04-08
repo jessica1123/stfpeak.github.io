@@ -5,6 +5,8 @@ subtitle: 'use git and github  '
 date: '2017-04-08 23:37:00 -0800'
 author: Dafeng
 header-img: img/post-bg-os-metro.jpg
+header-mask: 0.3
+catalog: true
 tags:
   - git
   - linux
