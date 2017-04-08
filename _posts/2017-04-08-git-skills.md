@@ -3,7 +3,7 @@ published: false
 layout: post
 subtitle: How to use git to update the blogs
 date:
-  'Sat Mar 17 2017 23:12:00 GMT+0800 (中国标准时间)': null
+  'Sat Apr 08 2017 23:00:00 GMT+0800 (中国标准时间)': null
 author: Dafeng
 header-img: img/post-bg-nextgen-web-pwa.jpg
 header-mask: 0.3
