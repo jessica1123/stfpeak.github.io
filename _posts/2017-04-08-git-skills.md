@@ -2,7 +2,7 @@
 published: false
 layout: post
 subtitle: How to use git to update the blogs
-date: 2017-04-08 15:21:00
+date: '2017-04-08T15:21:00.000Z UTC'
 author: Dafeng
 header-img: img/post-bg-nextgen-web-pwa.jpg
 header-mask: 0.3
@@ -268,8 +268,3 @@ git config --global user.name "Your Name" 配置用户名
     $ sudo git init --bare sample.git
     # 把 owner 改为 git
     $ sudo chown -R git:git sample.git
-    
-    
-    
-    
-    
