@@ -2,7 +2,7 @@
 published: false
 layout: post
 subtitle: How to use git to update the blogs
-date: '2017-04-08T15:21:00.000Z UTC'
+date: 2017-04-07T00:00:00.000Z
 author: Dafeng
 header-img: img/post-bg-nextgen-web-pwa.jpg
 header-mask: 0.3
