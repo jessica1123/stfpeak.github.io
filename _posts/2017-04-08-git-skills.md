@@ -1,15 +1,13 @@
 ---
-published: false
-layout: post
-subtitle: How to use git to update the blogs
-date: '2017-04-08 23:30:20 -0800'
-author: Dafeng
-header-img: img/post-bg-nextgen-web-pwa.jpg
-header-mask: 0.3
-catalog: true
+layout:     post
+title:      "How to use git to update blogs"
+subtitle:   "use git and github  "
+date:       2017-04-08 23:37:00 -0800
+author:     "Dafeng"
+header-img: "img/post-bg-nextgen-web-pwa.jpg"
 tags:
-  - git
-  - linux
+    - git
+    - linux
 ---
 
 # Blog git操作
