@@ -1,3 +1,3 @@
-# Hux blog 模板
+# Dafeng's Blog
 
-### [我的博客在这里 &rarr;](http://huxpro.github.io)
+### [Dafeng's Blog &rarr;](https://stfpeak.github.io/)
