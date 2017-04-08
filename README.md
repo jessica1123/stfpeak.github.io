@@ -1,3 +1,3 @@
-#Hux Blog
+#Dafeng Blog
 
-###[View Live Hux Blog &rarr;](https://huangxuan.me)
+###[View Live Dafeng Blog &rarr;](https://stfpeak.github.io/)
