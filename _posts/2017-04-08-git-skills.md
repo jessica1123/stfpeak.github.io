@@ -31,7 +31,7 @@ git config --global user.name "Your Name" 配置用户名
 * [git&github管理自己的项目](https://segmentfault.com/a/1190000003728094)
     
     
-##下面总结参考知乎分享：    
+# 下面总结参考知乎分享：    
     # 安装Git
     * sudo apt install git
     
