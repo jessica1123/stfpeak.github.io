@@ -58,19 +58,19 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 
 # Analytics settings
-# Baidu Analytics 
+# Baidu Analytics
 # ba_track_id: [your track id]
 
 # Google Analytics
 ga_track_id: 'UA-93915426-1'            # Format: UA-xxxxxx-xx
-#ga_domain: 
+#ga_domain:
 
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "看看代码，挖挖漏洞，<br>记录自己变成大牛的每一步成长！"
-sidebar-avatar: /img/feng.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/dafeng.jpeg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
