@@ -45,7 +45,7 @@ SSL协议即用到了对称加密也用到了非对称加密(公钥加密)，在
 
 Https在建立Socket连接之前，需要进行握手，具体过程如下：
 
-！[https单向认证](/img/https_authentication/single.jpeg)
+![https单向认证](/img/https_authentication/single.jpeg)
 
 1. 客户端向服务端发送SSL协议版本号、加密算法种类、随机数等信息。
 2. 服务端给客户端返回SSL协议版本号、加密算法种类、随机数等信息，同时也返回服务器端的证书，即公钥证书。
@@ -68,7 +68,7 @@ Https在建立Socket连接之前，需要进行握手，具体过程如下：
 
 双向认证和单向认证原理基本差不多，只是除了客户端需要认证服务端以外，增加了服务端对客户端的认证，具体过程如下：
 
-！[https双向认证](/img/https_authentication/double.jpeg)
+![https双向认证](/img/https_authentication/double.jpeg)
 
 1. 客户端向服务端发送SSL协议版本号、加密算法种类、随机数等信息。
 2. 服务端给客户端返回SSL协议版本号、加密算法种类、随机数等信息，同时也返回服务器端的证书，即公钥证书。
