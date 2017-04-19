@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "2017-04-19-bctf-2017-babyuse-writeup"
-subtitle:   "how to heap"
+title:      "bctf 2017 babyuse writeup"
+subtitle:   "how to heap using UAF"
 date:       2017-04-19 19:30:00 -0800
 author:     "Dafeng"
 header-img: "img/post-bg-universe.jpg"
