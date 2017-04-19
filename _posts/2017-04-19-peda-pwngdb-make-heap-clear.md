@@ -48,9 +48,9 @@ git clone https://github.com/longld/peda.git ~/peda
 
 ### Install pwngdb
 
-cd ~/
-git clone https://github.com/scwuaptx/Pwngdb.git
-cp ~/Pwngdb/.gdbinit ~/
+    cd ~/
+    git clone https://github.com/scwuaptx/Pwngdb.git
+    cp ~/Pwngdb/.gdbinit ~/
 
 #### .gdbinit
     source ~/peda/peda.py
