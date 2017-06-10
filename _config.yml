@@ -90,7 +90,7 @@ service-worker: true
 friends: [
     {
         title: "YY",
-        href: "http://xy14qg.oschina.io/"
+        href: "https://xy14qg.github.io/"
     },{
         title: "Bamboofox",
         href: "https://bamboofox.github.io/"
