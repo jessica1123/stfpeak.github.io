@@ -12,7 +12,7 @@ baseurl: ""                             # for example, '/blog' if your blog host
 # SNS settings
 RSS: false
 weibo_username:     dafengC9
-zhihu_username:     luo-nai-piao-dang
+zhihu_username:     stfpeak
 github_username:    stfpeak
 #twitter_username:  Dafeng
 #facebook_username:  Dafeng
@@ -90,7 +90,7 @@ service-worker: true
 friends: [
     {
         title: "YY",
-        href: "http://xy14qg.oschina.io/"
+        href: "https://xy14qg.github.io/"
     },{
         title: "Bamboofox",
         href: "https://bamboofox.github.io/"
