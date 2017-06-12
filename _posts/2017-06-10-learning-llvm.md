@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "learning LLVM project —— clang"
+title:      "learning LLVM project — clang"
 subtitle:   "learning LLVM for development && security "
 date:       2017-06-10 17:30:00 -0800
 author:     "Dafeng"
