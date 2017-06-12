@@ -52,7 +52,9 @@ Fuzz流程：
     $ make clean all
 C++ 程序, 设置 CXX=/path/to/afl/afl-g++.
 
-**测试库文件：**it is essential to link this executable against a static version of the instrumented library, or to make sure that the correct .so file is loaded at runtime (usually by setting LD_LIBRARY_PATH). The simplest option is a static build, usually possible via:
+**测试库文件：**
+
+it is essential to link this executable against a static version of the instrumented library, or to make sure that the correct .so file is loaded at runtime (usually by setting LD_LIBRARY_PATH). The simplest option is a static build, usually possible via:
 
 $ CC=/path/to/afl/afl-gcc ./configure --disable-shared
 
@@ -63,7 +65,7 @@ AFL编译链接可执行文件和库文件时，建议使用**static link(静态
 2. 选取不同的testcase时，选取不同类型的testcase。
 3. 使用afl-cmin精简testcase
 
-> 如果测试用例导致afl-fuzz速度慢，可以使用LLVM-based mode(compile with clang)，可以提速两倍。或者使用 -d option
+> 如果测试用例导致afl-fuzz速度慢，可以使用LLVM-based mode(compile with clang)，可以提速两倍，或者使用 -d option
 
 #### persistent mode
 The LLVM mode also offers a "persistent", in-process fuzzing mode that can work well for certain types of self-contained libraries, and for fast targets, can offer performance gains up to 5-10x; and a "deferred fork server" mode that can offer huge **benefits for programs with high startup overhead**. Both modes require you to edit the source code of the fuzzed program, but the changes often amount to just strategically placing a single line or two.
@@ -74,7 +76,7 @@ The LLVM mode also offers a "persistent", in-process fuzzing mode that can work 
 ![afl-fuzz](/img/afl_cautions/afl-fuzz.png)
 1. -m 设置内存限制,当不限内存时，set -m none
 2. -f xxx  当一个程序读取文件名固定时，set -f xxx(xxx为文件名)
-3. -t 当fuzzing的程序数据交换时间较长，set -t xxx(xxx为超时时间)
+3. -t 当fuzzing的程序数据交互时间较长，set -t xxx(xxx为超时时间)
 
 #### Fuzzing Screen
 ![Screen](/img/afl_cautions/afl_screen.png)
@@ -112,7 +114,7 @@ example may be:
     $ ./afl-fuzz [...] -S fuzzer11 -f file11.txt ./fuzzed/binary @@
     $ ./afl-fuzz [...] -S fuzzer12 -f file12.txt ./fuzzed/binary @@
 
-**分布式fuzzing:**  https://github.com/MartijnB/disfuzz-afl
+**分布式fuzzing:**  [https://github.com/MartijnB/disfuzz-afl](https://github.com/MartijnB/disfuzz-afl)
 
 #### 验证Crash
 如果程序Fuzzing过程发生crash，那么会在afl/output/crash文件夹下记录引发crash的输入文件，使用gdb单步调试可以定位引发崩溃的代码位置。但是有些比较复杂的程序利用gdb可能比较难定位问题，使用-C option。
@@ -123,7 +125,7 @@ code paths that can be reached in the program while keeping it in the
 crashing state.
 
 #### LLVM Mode
-LLVM Mode(afl-clang)模式编译程序Fuzzing速度是afl-gcc模式的2倍，但是使用此模式必须先安装llvm套件,参见[learning LLVM project — clang](https://stfpeak.github.io/2017/06/10/learning-llvm/)，配置LLVM_CONFIG(export LLVM_CONFIG=\`which llvm-config\`),然后在afl/llvm_mode/文件夹下执行make，会在afl/目录下生成afl-clang-fast/afl-clang-fast++。
+LLVM Mode(afl-clang)模式编译程序Fuzzing速度是afl-gcc模式的2倍，但是使用此模式必须先安装llvm套件,参见**[learning LLVM project — clang](https://stfpeak.github.io/2017/06/10/learning-llvm/)**，配置LLVM_CONFIG(export LLVM_CONFIG=\`which llvm-config\`),然后在afl/llvm_mode/文件夹下执行make，会在afl/目录下生成afl-clang-fast/afl-clang-fast++。
 使用afl-clang-fast编译C程序：
 
     $CC=/path/to/afl/afl-clang-fast ./configure [...options...]
