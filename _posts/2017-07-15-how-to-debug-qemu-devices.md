@@ -350,8 +350,8 @@ $ qemu-system-x86_64 -enable-kvm -smp 1 -m 1024 -hda ./ubuntu64.img -boot c -vnc
 
 2. 针对ne2k设备,从 lspci -nnv命令,我们知道其对应的bus信息是 00:04.0 ,我们也可以通过下列方式获取对应的IO内存和端口的信息.
 
-    * $ cat /proc/iomem| grep 00:04.0
-    * $ cat /proc/ioports|grep 00:04.0
+* $cat /proc/iomem | grep 00:04.0
+* $cat /proc/ioports |grep 00:04.0
 
 #### 查看设备IO处理函数
 在host上执行ps -aux | grep qemu, 查看qemu进程PID(如：6666)，gdb -p 6666，为了方便操作编写gdb脚本：
@@ -475,13 +475,6 @@ printf "total %lu entries.\n", $count
 在 .read = ne2000_read, .write = ne2000_write,函数处打断点，然后编写程序读写PIO端口或者MMIO内存，就可以在断点处断下来，结合gdb调试以及IDA堆qemu可执行程序综合分析，就可以深入的堆qemu设备进行分析了。结合攻击模式库以及对漏洞的敏感度，进行漏洞挖掘工作。
 
 ### 交互代码
-PIO程序：
-```c
-
-```
-
-
-
 
 MMIO读写驱动程序：
 ```c
