@@ -89,8 +89,11 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "YY",
-        href: "https://xy14qg.github.io/"
+        title: "Regulus",
+        href: "https://blog.xy14qg.top/"
+    },{
+        title: "zery",
+        href: "zery.wang"
     },{
         title: "Bamboofox",
         href: "https://bamboofox.github.io/"
